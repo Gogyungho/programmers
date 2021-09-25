@@ -28,6 +28,7 @@ n	result
 
 function solution(n) {
     var answer = [];
+    var cnt = 0;
     for(let i=2; i <= n; i++){
         let number = true;
         for(let j=2; j<i; j++){
@@ -45,4 +46,4 @@ function solution(n) {
 console.log(10);
 console.log(5);
 
-// 테스트를 전부 통과하지 못한다.. 뭐가 문제일지 고민해봐야겠다. 
+// 하나씩 풀어보려고 했지만 시간초과로 테스트 통과가 되지 않았다. 
